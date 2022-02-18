@@ -38,6 +38,7 @@ echo
 echo
 echo "Log off or reboot to see the change in your terminal".
 echo "----------------------------------------------------"
+sudo chsh $(whoami) -s $(which zsh)
 
 
 echo "################################################################"
